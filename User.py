@@ -1,7 +1,7 @@
 class User:
     idCounter = 0
 
-    def __init__(self, username, password):
+    def __init__(self, username=None, password=None):
         User.idCounter += 1
         self.user_id = User.idCounter
         self.username = username
